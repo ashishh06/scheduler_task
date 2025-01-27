@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #1f2937;
+  }
+  
+  /* Calendar Container */
+  .grid {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .grid-cols-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  /* .min-h-[100px] {
+    min-height: 100px;
+  } */
+  
+  /* Calendar Header */
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .space-x-2 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  
+  /* Buttons */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    filter: brightness(90%);
+  }
+  
+  .bg-gray-200 {
+    background-color: #e5e7eb;
+  }
+  
+  .bg-gray-200:hover {
+    background-color: #d1d5db;
+  }
+  
+  .bg-blue-500 {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  
+  .bg-blue-500:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Calendar Days */
+  .border {
+    border: 1px solid #e5e7eb;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f3f4f6;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+  }
+  
+  .mt-1 {
+    margin-top: 0.25rem;
+  }
+  
+  /* Event Styling */
+  .bg-blue-100 {
+    background-color: #dbeafe;
+  }
+  
+  .rounded {
+    border-radius: 0.375rem;
+  }
+  
+  /* Modal Styling */
+  .fixed {
+    position: fixed;
+  }
+  
+  .inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bg-black {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .w-96 {
+    width: 24rem;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Form Styling */
+  .block {
+    display: block;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .border {
+    border: 1px solid #d1d5db;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .rounded {
+    border-radius: 0.375rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Cancel and Submit Buttons */
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .flex.justify-end > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  
